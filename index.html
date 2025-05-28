@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio da Lanchonete Sabor & Cia</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #d35400;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .slogan {
+            font-style: italic;
+            margin-top: 5px;
+        }
+        
+        .menu-section {
+            background-color: white;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .section-title {
+            background-color: #e67e22;
+            color: white;
+            padding: 10px 20px;
+            margin: 0;
+        }
+        
+        .menu-items {
+            padding: 20px;
+        }
+        
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #eee;
+        }
+        
+        .menu-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .item-name {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .item-description {
+            color: #777;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        .item-price {
+            font-weight: bold;
+            color: #d35400;
+            white-space: nowrap;
+            margin-left: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 0 0 8px 8px;
+        }
+        
+        .highlight {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lanchonete Sabor & Cia</h1>
+            <div class="slogan">Sabores que encantam, preços que surpreendem!</div>
+        </header>
+        
+        <div class="highlight">
+            <strong>Promoção do dia:</strong> Combo X-Tudo + Refrigerante por apenas R$ 18,90!
+        </div>
+        
+        <div class="menu-section">
+            <h2 class="section-title">Lanches</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">X-Tudo</div>
+                        <div class="item-description">Pão, hambúrguer, queijo, presunto, ovo, bacon, alface, tomate e maionese</div>
+                    </div>
+                    <div class="item-price">R$ 16,90</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">X-Bacon</div>
+                        <div class="item-description">Pão, hambúrguer, queijo, bacon, alface, tomate e maionese</div>
+                    </div>
+                    <div class="item-price">R$ 14,50</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">X-Salada</div>
+                        <div class="item-description">Pão, hambúrguer, queijo, alface, tomate e maionese</div>
+                    </div>
+                    <div class="item-price">R$ 12,90</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">X-Frango</div>
+                        <div class="item-description">Pão, frango grelhado, queijo, alface, tomate e maionese</div>
+                    </div>
+                    <div class="item-price">R$ 13,50</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="menu-section">
+            <h2 class="section-title">Bebidas</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Refrigerante (lata)</div>
+                        <div class="item-description">Coca-Cola, Guaraná, Fanta, Sprite</div>
+                    </div>
+                    <div class="item-price">R$ 5,00</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Suco Natural</div>
+                        <div class="item-description">Laranja, Abacaxi, Maracujá, Limão</div>
+                    </div>
+                    <div class="item-price">R$ 7,00</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Água Mineral</div>
+                        <div class="item-description">Com ou sem gás</div>
+                    </div>
+                    <div class="item-price">R$ 3,50</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="menu-section">
+            <h2 class="section-title">Porções</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Batata Frita</div>
+                        <div class="item-description">Porção individual ou família</div>
+                    </div>
+                    <div class="item-price">R$ 10,90 / R$ 18,90</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Frango a Passarinho</div>
+                        <div class="item-description">Acompanha farofa e vinagrete</div>
+                    </div>
+                    <div class="item-price">R$ 22,90</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Mandioca Frita</div>
+                        <div class="item-description">Porção crocante com queijo ralado</div>
+                    </div>
+                    <div class="item-price">R$ 12,50</div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Aberto de segunda a sábado, das 10h às 22h | Delivery: (11) 1234-5678</p>
+            <p>Rua dos Sabores, 123 - Centro - São Paulo/SP</p>
+        </footer>
+    </div>
+</body>
+</html>
